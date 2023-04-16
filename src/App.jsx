@@ -1,14 +1,17 @@
-import './App.css'
-import { Styles } from './components/GlobalStyles/Styles'
+import "./App.css";
+import { Card } from "./components/Card/Card";
+import { Styles } from "./components/GlobalStyles/Styles";
+import { ThemeProv } from "./components/ThemeProvider/ThemeProv";
 
 function App() {
-
   return (
-    <div >
-      <Styles/>
-      <h1>Freela</h1>
-    </div>
-  )
+    <ThemeProv>
+      <Styles />
+      <Card>
+        <h1>Freela</h1>
+      </Card>
+    </ThemeProv>
+  );
 }
 
-export default App
+export default App;
