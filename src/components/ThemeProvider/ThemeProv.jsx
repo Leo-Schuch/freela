@@ -7,12 +7,12 @@ const tema = {
     atencao: '',
     focus: '',  
     primarias:{
-      a: '',
+      a: '#5754ED',
       b: '',
       c: ''
     },
     secundarias:{
-      a: '',
+      a: '#EBEAF9',
       b: '',
       c: ''
     },
@@ -26,6 +26,15 @@ const tema = {
       a: '',
       b: '',
     },
+  },
+  espacamentos: {
+    xxs: '4px',
+    xs: '8px',
+    s: '16px',
+    m: '24px',
+    l: '32px',
+    xl: '48px',
+    xxl: '64px',
   }
 }
 
