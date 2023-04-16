@@ -34,24 +34,24 @@ const styles = {
         line-height: 24px;
     `,
   bodyBold: `
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
 `,
   body2: `
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
 `,
   body2Bold: `
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
 `,
-  legenda: `
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 17px;
+  subTitle: `
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
 `,
 };
 
