@@ -5,14 +5,14 @@ const tema = {
   colors:{
     branco: '#ffffff',
     atencao: '',
-    focus: '',  
+    focus: '#B009ff',  
     primarias:{
       a: '#5754ED',
-      b: '',
+      b: '#D93114',
       c: ''
     },
     secundarias:{
-      a: '#EBEAF9',
+      a: '#F8F8FD',
       b: '',
       c: ''
     },

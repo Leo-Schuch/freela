@@ -5,7 +5,6 @@ const StyledLabel = styled.label`
   display: block;
   width: 100%;
   box-sizing: border-box;
-  margin: ${(props) => props.theme.spacings.xs};
 `;
 const StyledInput = styled.input`
   display: block;
@@ -15,6 +14,7 @@ const StyledInput = styled.input`
   border-color: ${(props) => props.theme.colors.neutras.a};
   box-sizing: border-box;
   margin-top: ${(props) => props.theme.spacings.xs};
+  margin-bottom: ${(props) => props.theme.spacings.s};
   background: ${(props) => props.theme.colors.branco};
   height: 40px;
   font-weight: 400;
